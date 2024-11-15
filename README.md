@@ -3,7 +3,8 @@ This project implements a web server using Node.js and the Express framework to 
 The server directory structure consists of class ID folders (e.g., DATA236), each containing files corresponding to different semesters/years (e.g., Winter2024.txt). Each file contains records for students enrolled in that class, including their names, student IDs, and email addresses.
 
 Directory Hierarchy
-'''plaintext
+
+```plaintext
 project-directory/
 ├── data/
 └── DATA228/
@@ -14,7 +15,7 @@ project-directory/
 ├── server.js
 ├── package-lock.json
 └── package.json
-'''
+```
 
 Within the data directory contains each classID folders such as DATA228 and DATA236. Within each classID folder are the .txt files (e.g., Winter2024.txt) for each different semester. These files contain a student per row in the format: lastName, FirstName ID email. The server.js file contains all the functions for all the different features such as get the classID and Semesters and Searching function. Package.json file contains the list of dependencies and scripts. The package.lock.json specifies their respective versions to ensure consistent installations in different environments.
 
